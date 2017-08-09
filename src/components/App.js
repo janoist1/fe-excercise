@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { fetchServiceUpdates } from '../api'
+import ServiceUpdates from './ServiceUpdates';
 import './App.css';
 
 
@@ -45,7 +46,7 @@ class App extends Component {
           <span className="App__operated-by">Operated by Thameslink</span>
         </header>
         <main>
-
+          <ServiceUpdates>{callingPoints}</ServiceUpdates>
         </main>
         <footer>by janoist1@gmail.com</footer>
       </div>

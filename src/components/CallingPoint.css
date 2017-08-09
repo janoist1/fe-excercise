@@ -1,0 +1,76 @@
+.CallingPoint {
+  display: flex;
+  height: 50px;
+}
+
+.CallingPoint.-departed .CallingPoint__scheduled-at,
+.CallingPoint.-departed .CallingPoint__station {
+  color: gray;
+}
+
+.CallingPoint__scheduled-at {
+  font-size: 18px;
+}
+
+.CallingPoint__indicator {
+  position: relative;
+  margin: 0 15px 0 22px;
+  border-left: 1px solid gray;
+}
+
+.CallingPoint__indicator::before {
+  content: '';
+  margin-left: -7px;
+  display: block;
+  width: 11px;
+  height: 11px;
+  border-radius: 100%;
+  border: 1px solid gray;
+  background-color: white;
+}
+
+.CallingPoint__indicator.-origin::before,
+.CallingPoint__indicator.-destination::before {
+  margin-left: -9px;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: black;
+}
+
+.CallingPoint__indicator.-destination {
+  border: 0;
+}
+
+.CallingPoint__train {
+  position: absolute;
+  top: 0;
+  left: -12px;
+  width: 21px;
+  height: 21px;
+  border-radius: 100%;
+  border: 1px solid gray;
+  background-color: cyan;
+}
+
+.CallingPoint__train.-departed {
+  top: 20px;
+}
+
+.CallingPoint__train::before {
+  content: '🚆';
+  margin-left: 2.5px;
+}
+
+.CallingPoint__status {
+  margin: 0;
+}
+
+.CallingPoint__station {
+  font-weight: 700;
+}
+
+.CallingPoint__estimated-at {
+  font-size: 14px;
+  color: gray;
+}
