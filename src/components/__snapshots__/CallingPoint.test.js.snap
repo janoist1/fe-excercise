@@ -1,0 +1,11 @@
+exports[`<CallingPoint /> renders all the variations correctly 1`] = `"<div class=\"CallingPoint\"><time class=\"CallingPoint__scheduled-at\">10:00</time><div class=\"CallingPoint__indicator\"></div><dl class=\"CallingPoint__status\"><dt class=\"CallingPoint__station\">Sevenoaks</dt><dd class=\"CallingPoint__estimated-at\">Exp. On time</dd></dl></div>"`;
+
+exports[`<CallingPoint /> renders all the variations correctly 2`] = `"<div class=\"CallingPoint -departed\"><time class=\"CallingPoint__scheduled-at\">10:00</time><div class=\"CallingPoint__indicator -departed\"></div><dl class=\"CallingPoint__status\"><dt class=\"CallingPoint__station\">Sevenoaks</dt><dd class=\"CallingPoint__estimated-at\">Dept. On time</dd></dl></div>"`;
+
+exports[`<CallingPoint /> renders all the variations correctly 3`] = `"<div class=\"CallingPoint\"><time class=\"CallingPoint__scheduled-at\">10:00</time><div class=\"CallingPoint__indicator -train-here\"><div class=\"CallingPoint__train\"></div></div><dl class=\"CallingPoint__status\"><dt class=\"CallingPoint__station\">Sevenoaks</dt><dd class=\"CallingPoint__estimated-at\">Exp. On time</dd></dl></div>"`;
+
+exports[`<CallingPoint /> renders all the variations correctly 4`] = `"<div class=\"CallingPoint -departed\"><time class=\"CallingPoint__scheduled-at\">10:00</time><div class=\"CallingPoint__indicator -departed -train-here\"><div class=\"CallingPoint__train -departed\"></div></div><dl class=\"CallingPoint__status\"><dt class=\"CallingPoint__station\">Sevenoaks</dt><dd class=\"CallingPoint__estimated-at\">Dept. On time</dd></dl></div>"`;
+
+exports[`<CallingPoint /> renders all the variations correctly 5`] = `"<div class=\"CallingPoint\"><time class=\"CallingPoint__scheduled-at\">10:00</time><div class=\"CallingPoint__indicator -origin\"></div><dl class=\"CallingPoint__status\"><dt class=\"CallingPoint__station\">Sevenoaks</dt><dd class=\"CallingPoint__estimated-at\">Exp. On time</dd></dl></div>"`;
+
+exports[`<CallingPoint /> renders all the variations correctly 6`] = `"<div class=\"CallingPoint\"><time class=\"CallingPoint__scheduled-at\">10:00</time><div class=\"CallingPoint__indicator -destination\"></div><dl class=\"CallingPoint__status\"><dt class=\"CallingPoint__station\">Sevenoaks</dt><dd class=\"CallingPoint__estimated-at\">Exp. On time</dd></dl></div>"`;
