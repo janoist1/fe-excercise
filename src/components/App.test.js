@@ -4,7 +4,6 @@ import * as api from '../api';
 import App from './App';
 import { data as mockData } from '../../data/ldb.json';
 
-
 describe('<App />', () => {
   it('renders loading', () => {
     const component = shallow(<App />);

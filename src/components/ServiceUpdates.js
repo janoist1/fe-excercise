@@ -1,14 +1,14 @@
-import React  from 'react';
+import React from 'react';
 import CallingPoint from './CallingPoint';
 import './ServiceUpdates.css';
 
-const ServiceUpdates = ({ children }) => (
+const ServiceUpdates = ({ children }) =>
   <ul className="ServiceUpdates">
-    {children.map((item, i) => (
+    {children.map((item, i) =>
       <li key={i}>
         <CallingPoint {...item} />
       </li>
-    ))}
-  </ul>);
+    )}
+  </ul>;
 
 export default ServiceUpdates;

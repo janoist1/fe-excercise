@@ -1,7 +1,6 @@
 import '../../setupJest'; // TODO: find out why it isn't get picked up from npm config
 import { fetchServiceUpdates } from '../api';
 
-
 describe('api::fetchServiceUpdates', () => {
   const mockData = { test: 'test' };
   let setTimeout;
