@@ -37,10 +37,8 @@
   }
 
   .App__header::before {
-    position: absolute;
     left: -75px;
     font-size: 72px;
-    content: '🚆';
   }
 
   .App__operated-by {
