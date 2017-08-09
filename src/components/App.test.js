@@ -27,7 +27,11 @@ describe('<App />', () => {
     component.instance().componentDidMount();
 
     process.nextTick(() => {
-      expect(api.fetchServiceUpdates.mock.calls.length).toBe(1);
+      try {
+        expect(api.fetchServiceUpdates.mock.calls.length).toBe(1);
+      } catch (e) {
+        fail(e);
+      }
 
       done();
     });
